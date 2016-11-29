@@ -1,6 +1,6 @@
 {
   "name": "news-ifeng-detail",
   "version": "1.0.0",
-  "apiDependencies": [{"text":"<xs:element name=\"news\"><xs:complexType><xs:all><xs:element name=\"i\"><xs:complexType><xs:all><xs:element name=\"type\"><xs:simpleType><xs:restriction base=\"xs:string\"><xs:enumeration value=\"news\"/><xs:enumeration value=\"img\"/><xs:enumeration value=\"topic\"/><xs:enumeration value=\"ad\"/><xs:enumeration value=\"vedio\"/></xs:restriction></xs:simpleType></xs:element><xs:element name=\"mainpic\" type=\"xs:anyURI\"/><xs:element name=\"tag\" type=\"xs:string\"/><xs:element name=\"comment\"><xs:simpleType><xs:restriction base=\"xs:integer\"><xs:minExclusive value=\"0\"/></xs:restriction></xs:simpleType></xs:element><xs:element name=\"src\"><xs:complexType><xs:all><xs:element name=\"i\" type=\"xs:anyURI\"/></xs:all></xs:complexType></xs:element><xs:element name=\"title\" type=\"xs:string\"/><xs:element name=\"href\" type=\"xs:anyURI\"/><xs:element name=\"content\" type=\"xs:string\"/></xs:all></xs:complexType></xs:element></xs:all></xs:complexType></xs:element>","name":"news"}]
+  "apiDependencies": ["news"]
 }
 
