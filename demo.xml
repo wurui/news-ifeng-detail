@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="demo.xsl"?>
+<root>
+  <env>
+    <domain>local</domain>
+  </env>
+  <data>
+        <news>
+        <i>
+            <type>
+                topic
+            </type>
+            <mainpic>
+                //0.openxsl.com/img/fox.jpg
+            </mainpic>
+            <tag>
+                notebook
+            </tag>
+            <comment>
+                475
+            </comment>
+            <src>
+                <i>
+                    //0.openxsl.com/img/fox.jpg
+                </i>
+            </src>
+            <title>
+                camera
+            </title>
+            <href>
+                //0.openxsl.com/img/fox.jpg
+            </href>
+            <content>
+                good camera
+            </content>
+        </i>
+    </news>
+  </data>
+
+</root>
