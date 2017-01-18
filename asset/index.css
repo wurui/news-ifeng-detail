@@ -2,6 +2,9 @@
     /* CSS */
     padding:5px;
 }
+.oxmod-news-ifeng-detail img{
+    max-width: 100%;
+}
 
 .oxmod-news-ifeng-detail .title {
     font-size: 15px;

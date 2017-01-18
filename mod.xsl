@@ -6,7 +6,6 @@
             <xsl:variable name="news" select="data/news/i[1]"/>
             <h1 class="title">
                 <xsl:value-of select="$news/title"/>
-
             </h1>
             <xsl:if test="$news/tag">
                 <p class="tag">
