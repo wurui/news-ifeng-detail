@@ -3,7 +3,7 @@
     padding:5px;
 }
 .oxmod-news-ifeng-detail img{
-    max-width: 100%;
+    max-width: 100% !important;
 }
 
 .oxmod-news-ifeng-detail .title {
