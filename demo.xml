@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
 <?xml-stylesheet type="text/xsl" href="demo.xsl"?>
 <root>
-  <env>
-    <domain>local</domain>
-  </env>
-  <data>
-        <news>
-        <i>
+    <env>
+        <domain>local</domain>
+    </env>
+    <data>
+        <article-news>
+
             <type>
                 topic
             </type>
@@ -16,25 +16,17 @@
             <tag>
                 notebook
             </tag>
-            <comment>
-                475
-            </comment>
-            <src>
-                <i>
-                    //0.openxsl.com/img/fox.jpg
-                </i>
-            </src>
             <title>
                 camera
             </title>
-            <href>
-                //0.openxsl.com/img/fox.jpg
-            </href>
+            <time>
+                11:20
+            </time>
             <content>
                 &lt;big&gt;good&lt;/big&gt; camera&lt;a href=""&gt;asssasdf&lt;/a&gt;
             </content>
-        </i>
-    </news>
-  </data>
+
+        </article-news>
+    </data>
 
 </root>
