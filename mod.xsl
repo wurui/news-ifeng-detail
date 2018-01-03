@@ -3,7 +3,7 @@
     <xsl:template match="/root" name="wurui.news-ifeng-detail">
         <!-- className 'J_OXMod' required  -->
         <div class="J_OXMod oxmod-news-ifeng-detail" ox-mod="news-ifeng-detail">
-            <xsl:variable name="news" select="data/article-news"/>
+            <xsl:variable name="news" select="data/news/i[1]"/>
             <h1 class="title">
                 <xsl:value-of select="$news/title"/>
             </h1>
